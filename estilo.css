@@ -511,14 +511,12 @@ html{
 .content-card-product .price span {
 	font-size: 1.5rem;
 	font-weight: 400;
-	text-decoration: line-through;
+	text-decoration: line-through;moca
 	color: #777;
 	margin-left: 0.5rem;
 }
 
-/* ********************************** */
-/*               GALLERY              */
-/* ********************************** */
+/* Gallery */
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -538,9 +536,7 @@ html{
 	grid-row: 1/3;
 }
 
-/* ********************************** */
-/*              SPECIALS              */
-/* ********************************** */
+/* Specials */
 .specials {
 	display: flex;
 	flex-direction: column;
@@ -548,9 +544,7 @@ html{
 	margin-bottom: 3rem;
 }
 
-/* ********************************** */
-/*                BLOGS               */
-/* ********************************** */
+/* Blogs */
 .blogs {
 	display: flex;
 	flex-direction: column;
@@ -654,9 +648,7 @@ html{
 	background-color: var(--dark-color);
 }
 
-/* ********************************** */
-/*               FOOTER               */
-/* ********************************** */
+/* Footer */
 
 .footer {
 	background-color: var(--primary-color);
@@ -824,9 +816,7 @@ html{
 	font-size: 1.6rem;
 }
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 768px       */
-/* ********************************** */
+
 @media (max-width: 768px) {
 	html {
 		font-size: 55%;
@@ -927,9 +917,7 @@ html{
 	}
 }
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 468px       */
-/* ********************************** */
+
 @media (max-width: 468px) {
 	html {
 		font-size: 42.5%;
