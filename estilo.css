@@ -511,7 +511,7 @@ html{
 .content-card-product .price span {
 	font-size: 1.5rem;
 	font-weight: 400;
-	text-decoration: line-through;moca
+	text-decoration: line-through;
 	color: #777;
 	margin-left: 0.5rem;
 }
@@ -849,23 +849,50 @@ html{
 
 /* pagina Contacto */
 .container-form{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	max-width: 100rem;
-	height: 50rem;
-	margin: 1rem auto;
-	border-radius: 2rem;
-	border: solid black;
-	
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.nombre-mail input{
-	margin-top: 2rem;
-	border-radius: 1rem;
-	margin: 1rem;
+.form{
+    width: 600px;
+    height: 450px;
 }
+.nombre-mail p, .mensaje p{
+	font-size: 2rem;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
 
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .mensaje textarea{
+    height: 150px;
+	width: 100%;
+  }
+.form button{
+	font-size: 2rem;
+	border-radius: 1rem;
+	padding: 1rem;
+	border: none;
+	background-color: var(--primary-color);
+	transition: .3s;
+}
+.form button:hover{
+	scale: 1.1;
+}
 
 
 @media (max-width: 768px) {
