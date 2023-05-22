@@ -3,9 +3,9 @@ Html y css pagina principal completos.
 Html y css que falta agregar:
   1-Pagina para comprar:
     agregar al carrito
-  2- Pagina acerca de nosotros
+  2- Pagina acerca de nosotros (LISTO)
   3- Pagina contactenos:
-      Nombre, apellido, mail y mensaje.
+      Nombre, apellido, mail y mensaje. (LISTO)
   4- Mi cuenta:
     historial de compras. //no es prioridad
 
@@ -24,5 +24,7 @@ Lo que falta agregar el javascript:
   Los enlaces de la bara de navegacion (moca helado, expreso y capucchino) tienen que ir a la pagina de productos
   con un filtro aplicado
   
-  18/5 Se termino el html y css de la pagina principal
+  18/5 Se termino el html y css de la pagina principal.
+  22/5 Se termino pagina Acerca de nosotros.
+  22/5 Se termino pagina contacto + form envia mail a mi cuenta.
   
